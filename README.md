@@ -14,7 +14,7 @@ Managing medications can be challenging, especially for individuals who need to 
 
 This project combines **embedded systems, IoT communication, environmental sensing, and user interface design** into one compact solution.
 
- **See it in action:** [Project Videos]([https://drive.google.com/drive/folders/1QRBbNZgGLt7ZVYmZwcyW9U6h62nVZr1o?usp=sharing](https://drive.google.com/drive/folders/1JH7f_IJpU5T4b4XAAQsOsxm_KyHcqEqf?usp=drive_link))
+ **See it in action:** [Project Videos]((https://drive.google.com/drive/folders/1JH7f_IJpU5T4b4XAAQsOsxm_KyHcqEqf?usp=drive_link))
 
 ---
 
