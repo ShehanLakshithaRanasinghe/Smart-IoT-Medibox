@@ -1,13 +1,12 @@
-# 💊 Smart MediBox – Intelligent IoT Medication Management
+#  Smart MediBox – Intelligent IoT Medication Management
 
 ![Platform](https://img.shields.io/badge/Platform-ESP32-blue)
 ![IoT](https://img.shields.io/badge/IoT-MQTT%20%7C%20Node--RED-green)
 ![Status](https://img.shields.io/badge/Status-Active-success)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
 
-## 🌍 Introduction
+##  Introduction
 
 Managing medications can be challenging, especially for individuals who need to take multiple doses at different times of the day. Forgetting even a single dose can reduce the effectiveness of treatment or lead to health complications. Traditional pillboxes are passive and do not provide reminders, monitoring, or remote connectivity.
 
@@ -15,54 +14,54 @@ Managing medications can be challenging, especially for individuals who need to 
 
 This project combines **embedded systems, IoT communication, environmental sensing, and user interface design** into one compact solution.
 
-🎥 **See it in action:** [Project Videos](https://drive.google.com/drive/folders/1QRBbNZgGLt7ZVYmZwcyW9U6h62nVZr1o?usp=sharing)
+ **See it in action:** [Project Videos](https://drive.google.com/drive/folders/1QRBbNZgGLt7ZVYmZwcyW9U6h62nVZr1o?usp=sharing)
 
 ---
 
-## ✨ Why Smart MediBox?
+##  Why Smart MediBox?
 
-* 🕒 **Never miss a dose** – Intelligent alarm system keeps you on schedule.
-* 🌡 **Store medicines safely** – Built-in temperature and humidity monitoring warns if conditions are unsafe.
-* 💡 **Environment-aware** – Automated shading adjusts light exposure, protecting sensitive medications.
-* 📡 **Stay connected** – IoT dashboard for remote access and real-time insights.
-* 💾 **No data loss** – Alarms and settings are saved in EEPROM, so even after a restart, the system remembers.
+*  **Never miss a dose** – Intelligent alarm system keeps you on schedule.
+*  **Store medicines safely** – Built-in temperature and humidity monitoring warns if conditions are unsafe.
+*  **Environment-aware** – Automated shading adjusts light exposure, protecting sensitive medications.
+*  **Stay connected** – IoT dashboard for remote access and real-time insights.
+*  **No data loss** – Alarms and settings are saved in EEPROM, so even after a restart, the system remembers.
 
 ---
 
-## ⚡ Features in Depth
+##  Features in Depth
 
-### 🕒 Smart Time & Alarms
+###  Smart Time & Alarms
 
 * Automatic **NTP time synchronization** (accurate global time, with time zones).
 * Set multiple alarms for different medications.
 * Alarms trigger **buzzer + OLED notifications**.
 * User-friendly navigation with **push buttons** for alarm setup.
 
-### 🌡 Environmental Monitoring
+###  Environmental Monitoring
 
 * **DHT22 sensor** continuously tracks temperature & humidity.
 * Alerts if medicine storage goes out of safe range.
 * Data logged and pushed via MQTT for remote visualization.
 
-### 💡 Light Management
+###  Light Management
 
 * Dual **LDR sensors** measure ambient light intensity.
-* Servo-controlled shade automatically adjusts exposure.
+* Servo controlled shade automatically adjusts exposure.
 * Manual override available via IoT dashboard.
 
-### 📱 IoT & Dashboard Integration
+###  IoT & Dashboard Integration
 
 * Real-time communication via **MQTT protocol**.
 * Node-RED dashboard with:
 
-  * 📊 Temperature & humidity graphs
-  * 💡 Light monitoring
-  * 🎛 Servo control
-  * 🔔 Alarm indicators
-  * 📂 Historical data logs
-  * 📱 Mobile-responsive design
+  *  Temperature & humidity graphs
+  *  Light monitoring
+  *  Servo control
+  *  Alarm indicators
+  *  Historical data logs
+  *  Mobile-responsive design
 
-### 🔋 Efficiency & Reliability
+###  Efficiency & Reliability
 
 * Smart power management – no unnecessary updates if values don’t change.
 * EEPROM ensures **persistent storage** of user settings.
@@ -70,7 +69,7 @@ This project combines **embedded systems, IoT communication, environmental sensi
 
 ---
 
-## 🛠 Hardware Used
+##  Hardware Used
 
 * **ESP32 Development Board** – Main IoT controller
 * **128x64 OLED Display** – User interface
@@ -84,7 +83,7 @@ This project combines **embedded systems, IoT communication, environmental sensi
 
 ---
 
-## 💻 Software Stack
+##  Software Stack
 
 * **Programming:** Arduino IDE / PlatformIO
 * **Simulation:** [Wokwi](https://wokwi.com/) for virtual testing
@@ -101,7 +100,7 @@ This project combines **embedded systems, IoT communication, environmental sensi
 
 ---
 
-## 🏗 System Overview
+##  System Overview
 
 ```
 ┌───────────── Smart MediBox ──────────────┐
@@ -122,7 +121,7 @@ This project combines **embedded systems, IoT communication, environmental sensi
 
 ---
 
-## 📊 Node-RED Dashboard Preview
+##  Node-RED Dashboard Preview
 
 ✔ Real-time graphs of temperature & humidity
 ✔ Light intensity monitoring
@@ -133,7 +132,7 @@ This project combines **embedded systems, IoT communication, environmental sensi
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 1. **Power on the MediBox** – ESP32 connects to Wi-Fi & syncs time via NTP.
 2. **Set Alarms** – Navigate with buttons → Select time & days → Save.
@@ -143,20 +142,15 @@ This project combines **embedded systems, IoT communication, environmental sensi
 
 ---
 
-## 🔮 Future Plans
+##  Future Plans
 
-* 📱 **Mobile App** for direct user notifications
-* 🎙 **Voice Assistant Integration** (Alexa, Google Assistant)
-* 🤖 **AI-based usage pattern learning**
-* 💊 **Multi-compartment support** for different medications
-* 🏥 **Pharmacy system integration** for auto-refill alerts
-* 🔐 **Enhanced security** with authentication & encryption
+*  **Mobile App** for direct user notifications
+*  **Voice Assistant Integration** (Alexa, Google Assistant)
+*  **AI-based usage pattern learning**
+*  **Multi-compartment support** for different medications
+*  **Pharmacy system integration** for auto-refill alerts
+*  **Enhanced security** with authentication & encryption
 
 ---
 
-
-
-👉 This version is **longer, descriptive, and story-driven**. It feels like a **research + product showcase hybrid**, making it suitable for GitHub but also appealing to readers.
-
-Would you like me to also design a **visual project banner** (like a header image with MediBox + IoT icons) that you can put right under the title in your README?
 
