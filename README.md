@@ -67,6 +67,10 @@ Instead of relying on jumper wires and breadboards, the PCB integrates all core 
 * Integrated connectors for OLED, DHT22, LDRs, Servo, and Buzzer.  
 * Gerber files exported for fabrication, making it manufacturable.
 
+![PCB Layout](images/PCB_layout.png)
+![3D View](images/3D_view.png)
+
+
 ###  IoT & Dashboard Integration
 
 * Real-time communication via **MQTT protocol**.
