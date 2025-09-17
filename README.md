@@ -54,6 +54,19 @@ This project combines **embedded systems, IoT communication, environmental sensi
 * Servo controlled shade automatically adjusts exposure.
 * Manual override available via IoT dashboard.
 
+##  Custom PCB Design  
+
+To ensure compactness, reliability, and long-term usability, a **custom PCB** was designed using **EasyEDA**.  
+Instead of relying on jumper wires and breadboards, the PCB integrates all core components of the MediBox in a single board, improving durability and reducing wiring complexity.  
+
+###  Key Highlights:
+* Designed in **EasyEDA** with proper schematics and PCB layout.  
+* Compact footprint for enclosure-friendly design.  
+* All sensor and actuator pins are clearly labeled for easy debugging.  
+* Power distribution optimized for ESP32, sensors, and actuators.  
+* Integrated connectors for OLED, DHT22, LDRs, Servo, and Buzzer.  
+* Gerber files exported for fabrication, making it manufacturable.
+
 ###  IoT & Dashboard Integration
 
 * Real-time communication via **MQTT protocol**.
