@@ -18,6 +18,10 @@ This project combines **embedded systems, IoT communication, environmental sensi
 
 
 ---
+### Wokwi Simulation
+![Wokwi Simulation](images/wokwi.png)
+
+---
 
 ##  Why Smart MediBox?
 
